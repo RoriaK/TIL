@@ -1,0 +1,23 @@
+/* 사용된 색상은 
+darkviolet, orange, blue, 
+green, red, yellow입니다. */
+h2 {
+
+  color: darkviolet !important;;
+}
+
+p {
+  color:orange;
+}
+
+.blue {
+ color:blue; 
+}
+
+.green {
+  color:green;
+}
+
+#red {
+  color:red;
+}
