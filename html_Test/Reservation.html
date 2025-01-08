@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="reservation.css">
+
+</head>
+
+<body>
+    <h1 class="title">숙소 예약</h1>
+
+    <h2 class="sub_title">신상 정보</h2>
+    <div>
+        <label class="mini_title">이름 :</label>
+        <input type="text" placeholder="이름 입력">
+    </div>
+    
+    <div>
+        <label class="mini_title">이메일 :</label>
+        <input type="email" placeholder="이메일 입력">
+    </div>
+    
+    <div>
+        <label class="mini_title">예약자 사진 :</label>
+        <input type="file">
+    </div>
+    <hr>
+    <h3 class="mini_title">상세 정보</h3>
+
+    <h3 class="sub_title">선호 객실 타입</h3>
+    <label class="mini_title">도시뷰 :</label>
+    <input type="checkbox" name="city" value="city">
+    <label class="mini_title">레이크뷰 :</label>
+    <input type="checkbox" name="lake" value="lake">
+    <label class="mini_title">마운틴뷰 :</label>
+    <input type="checkbox" name="mountain" value="mountain">
+
+    <h3 class="sub_title">동행자 정보</h3>
+    <label class="mini_title">인원수 :</label>
+    <input type="number" max="5" min="1" placeholder="최대 5명">
+
+    <h2 class="sub_title">기타</h2>
+    <label class="mini_title" for="my_textarea">요청 사항 :</label>
+    <textarea name="여러줄 입력" id="my_textarea" cols="30" rows="10"></textarea>
+    <hr>
+    
+    <button>전송</button>
+
+</body>
+
+</html>
