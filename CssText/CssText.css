@@ -6,4 +6,17 @@
     font-weight: 400;
     font-style: normal;
   }
+
+p{
+  font-size : 16px;
+  font-weight : bold;
+  line-height : 100px;
+  letter-spacing: 1px;
+  color : #891a1a;
+}
+
+span {
+  background-color: rgb(27, 111, 83);
+  font-size: 1.5em;
+}
   

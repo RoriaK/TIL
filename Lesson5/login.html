@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="login.css">
+  <title>Document</title>
+  <style>
+    .image{
+      border: 1px solid rgb(255, 255, 255);
+      background-image: url("uniqon.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 256px;
+      height: 150px;
+      background-size: 100% 100%;
+    }
+
+    h1,
+    div {
+      color: rgb(0, 0, 0);
+      width: 200px;
+      height: 50px;
+      border: 1px solid rgb(255, 255, 255);
+      padding: 10px 20px 10px 20px;
+    }
+
+    input {
+      color: gray;
+
+      padding: 5px;
+    }
+
+    input[type='submit'] {
+      background-color: aquamarine;
+      cursor: pointer;
+    }
+    
+  </style>
+</head>
+
+<body>
+    <section>
+      <div class="image"></div>
+    </section>
+
+    <h1>Log In</h1>
+    <form>
+      <div>
+        <input type="text" placeholder="아이디 입력">
+      </div>
+      <div>
+        <input type="password" placeholder="비밀번호 입력" required>
+          <span class="hover"></span>
+      </div>
+      <div>
+        <input type="submit" value="로그인"></input>
+      </div>
+    </form>
+</body>
+
+</html>
